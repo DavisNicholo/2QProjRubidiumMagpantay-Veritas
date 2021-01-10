@@ -1,0 +1,229 @@
+/* Universal*/
+
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, p, li {
+	font-family: Lato, Arial;
+	padding: 0;
+	margin: 0;
+	color: #363636;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+/*Property Classes*/
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.body_text {
+	display:block;
+	margin-left:11%;
+	margin-right:11%;
+	white-space:pre-line;
+	text-align:justify;
+	font-size: 18px;
+}
+
+.hr {
+	margin: 0px 30px;
+}
+
+.alt_text {
+	font-size: 14px;
+	text-align: center;
+}
+
+/* Navigation Bar */
+
+#navbar {
+	height: 65px;
+	background-color: #FF840F;
+	margin: 0px;
+}
+
+#navbar_logo {
+	position: relative;
+	top: 2.5vh;
+	left: 3vh;
+	max-width: 100%;
+	height: auto;
+}
+
+#navbar_buttons {
+	position: relative;
+	max-height: 100%;
+	width: auto;
+	top: 0.7vh;
+	right: 1vh;
+	float: right;
+}
+
+#navbar_buttons a:link li{
+	background-color: #FF840F;
+	text-decoration: none;
+	color: #FFF;
+}
+
+#navbar_buttons a:visited li{
+	background-color: #FF840F;
+	text-decoration: none;
+	color: #FFF;
+}
+
+#navbar_buttons a:hover li{
+	background-color: #FFFFFF;
+	text-decoration: none;
+	color: #FF840F;
+}
+
+
+#navbar_buttons a:active li{
+	background-color: #FFFFFF;
+	text-decoration: underline;
+	color: #FF840F;
+}
+
+#navbar_buttons li{
+	display: inline;
+	padding: 21px 20px;
+	color: white;
+	font-size: 17px;
+	font-weight: 400;
+}
+
+.active_page {
+	text-decoration: underline;
+	color: #FFFFFF;
+}
+
+/*Footer*/
+
+#footer {
+	background-color: #FF840F;
+	display: block;
+	overflow: auto;
+}
+
+/*Twitter Link*/
+
+#twitter {
+	background: url('../images/social_media_sprite.png') no-repeat -43px -459px;
+	width: 338px;
+	height: 337px;
+	zoom: 0.15;
+}
+
+a:link #twitter {
+	background: url('../images/social_media_sprite.png') no-repeat -43px -459px;
+	width: 338px;
+	height: 337px;
+	zoom: 0.15;
+}
+
+a:visited #twitter {
+	background: url('../images/social_media_sprite.png') no-repeat -43px -459px;
+	width: 338px;
+	height: 337px;
+	zoom: 0.15;
+}
+
+a:hover #twitter {
+	background: url('../images/social_media_sprite.png') no-repeat -43px -46px;
+	width: 338px;
+	height: 337px;
+	zoom: 0.15;
+}
+
+a:hover #twitter {
+	background: url('../images/social_media_sprite.png') no-repeat -43px -46px;
+	width: 338px;
+	height: 337px;
+	zoom: 0.15;
+}
+
+/*Instagram Link*/
+
+#instagram {
+	background: url('../images/social_media_sprite.png') no-repeat -474px -459px;
+	width: 338px;
+	height: 337px;
+	zoom: 0.15;
+}
+
+a:link #instagram {
+	background: url('../images/social_media_sprite.png') no-repeat -474px -459px;
+	width: 338px;
+	height: 337px;
+	zoom: 0.15;
+}
+
+a:visited #instagram {
+	background: url('../images/social_media_sprite.png') no-repeat -474px -459px;
+	width: 338px;
+	height: 337px;
+	zoom: 0.15;
+}
+
+a:hover #instagram {
+	background: url('../images/social_media_sprite.png') no-repeat -474px -46px;
+	width: 338px;
+	height: 337px;
+	zoom: 0.15;
+}
+
+a:active #instagram {
+	background: url('../images/social_media_sprite.png') no-repeat -474px -46px;
+	width: 338px;
+	height: 337px;
+	zoom: 0.15;
+}
+
+/*Facebook Link*/
+
+#facebook {
+	background: url('../images/social_media_sprite.png') no-repeat -906px -459px;
+	width: 338px;
+	height: 337px;
+	zoom: 0.15;
+}
+
+a:link #facebook {
+	background: url('../images/social_media_sprite.png') no-repeat -906px -459px;
+	width: 338px;
+	height: 337px;
+	zoom: 0.15;
+}
+
+a:visited #facebook {
+	background: url('../images/social_media_sprite.png') no-repeat -906px -459px;
+	width: 338px;
+	height: 337px;
+	zoom: 0.15;
+}
+
+a:hover #facebook {
+	background: url('../images/social_media_sprite.png') no-repeat -906px -46px;
+	width: 338px;
+	height: 337px;
+	zoom: 0.15;
+}
+
+a:active #facebook {
+	background: url('../images/social_media_sprite.png') no-repeat -906px -46px;
+	width: 338px;
+	height: 337px;
+	zoom: 0.15;
+}
