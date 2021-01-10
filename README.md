@@ -1,4 +1,4 @@
-# 2QProjRubidiumMagpantay-Veritas-
+# 2QProjRubidiumMagpantay-Veritas
 CS3 - 2Q - 1st Phase Project Submission - Rubidium - Magpantay - Veritas
 
 This repository contains the files for the website Veritas.
